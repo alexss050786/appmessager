@@ -1,0 +1,17 @@
+.messagedefault-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-height: 400px;
+    margin: 2.5px;
+}
+
+.messagedefault-container img{
+    width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .messagedefault-container{
+      width: 100%;
+    }
+}

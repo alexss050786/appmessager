@@ -1,0 +1,61 @@
+.message-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-height: 400px;
+    margin: 2.5px;
+    overflow: hidden;
+}
+
+.message-container .message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.message-container .nomessage{
+    font-size: 18pt;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} 
+
+.message-not-found{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.message-not-found button{
+    width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+    .message-container{
+      width: 100%;
+    }
+}
+
+/* .column.message {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.column.message .message-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.column.message .nomessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} */

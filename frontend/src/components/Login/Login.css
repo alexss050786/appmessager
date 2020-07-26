@@ -1,0 +1,63 @@
+.login-form{
+    overflow: hidden;
+    padding: 30px;
+    width: 400px;
+}
+
+/* CSS Animation */
+
+.login-form form{
+    animation: fade 0.5s;
+}
+
+.login-form form input:nth-child(1){
+    animation: login-input-move 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.login-form form input:nth-child(2){
+    animation: login-input-move 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+}
+
+.login-form form button{
+    animation: fade 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.login-form footer button{
+    animation: fade 1s;
+    animation-delay: 1.3s;
+    animation-fill-mode: backwards;
+}
+
+.login-form-move {
+    animation: login-form-move 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes login-input-move {
+    from {
+      opacity: 0;
+      transform: translateX(-75%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+
+
+@keyframes login-form-move {
+    from {
+      opacity: 0;
+      transform: translateX(-35%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}

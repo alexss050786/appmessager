@@ -1,0 +1,23 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-content{
+    display: flex;
+    align-items: flex-start;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .login-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

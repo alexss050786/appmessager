@@ -1,0 +1,11 @@
+.input-container {
+    padding-top: 10px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    outline: none;    
+}

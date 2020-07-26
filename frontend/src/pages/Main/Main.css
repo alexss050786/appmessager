@@ -1,0 +1,20 @@
+.main-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.main-container .contact-group-container {
+  width: 25%;
+  height: 100%;
+  margin: 2.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 10px 5px;
+  }
+  .main-container .contact-group-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.showmessage-container{
+    position: fixed;
+    width: 300px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    white-space: pre-line;
+    z-index: 1000;
+}
+
+.showmessage-container.text-center{
+    text-align: center;
+}
+
+.showmessage-container.text-left{
+    text-align: left;
+}
+
+.showmessage-container.text-right{
+    text-align: right;
+}
+
+.showmessage-container #close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 1px;
+    max-width: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    font-weight: bold;
+    font-size: 6pt;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.showmessage-container.top{
+    top: 10px;
+}
+
+.showmessage-container.bottom{
+    bottom: 10px;
+}
+
+.showmessage-container.right{
+    right: 10px;
+}
+
+.showmessage-container.left{
+    left: 10px;
+}

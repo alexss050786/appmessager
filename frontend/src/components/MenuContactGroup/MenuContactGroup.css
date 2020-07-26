@@ -1,0 +1,27 @@
+.menucontactgroup-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.menucontactgroup-container .option {
+  position: absolute;
+  top: 60px;
+}
+
+.menucontactgroup-container .option-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menucontactgroup-container .option-item div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}

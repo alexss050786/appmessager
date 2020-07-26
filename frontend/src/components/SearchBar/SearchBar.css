@@ -1,0 +1,16 @@
+.search-container{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.search-container.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search-container > img{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,32 @@
+.contact-container .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.contact-container .item img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.contact-container .item strong {
+  margin: 0 5px;
+}
+
+.contact-container .item button {
+  max-width: 70px;
+  margin: 2px;
+}
+
+.contact-container .item.option {
+  justify-content: center;
+}
+
+.contact-container .contact-not-confirmed-item {
+  margin: 5px;
+}

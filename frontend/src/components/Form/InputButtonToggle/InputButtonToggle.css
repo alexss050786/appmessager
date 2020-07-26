@@ -1,0 +1,18 @@
+.inputbutton-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.inputbutton-container button, input{
+    text-align: center;
+    border: 2px solid #cccccc;
+    padding: 5px;
+    width: 100%;
+}
+
+.inputbutton-container.active button{
+    width: 35px;
+}

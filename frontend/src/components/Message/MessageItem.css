@@ -1,0 +1,42 @@
+.message-item{
+    border-radius: 10px;
+    min-height: 30px;
+    max-width: 75%;
+    min-width: 75%;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.message-item.from{
+    align-self: flex-end;
+    text-align: right;
+    cursor: pointer;
+    animation: move-right-to-left 1s;
+    animation-fill-mode: backwards;
+}
+
+.message-item.to{    
+    animation: move-left-to-right 1s;
+    animation-fill-mode: backwards;
+}
+
+
+/* CSS Animation */
+
+@keyframes move-left-to-right{
+    from{
+        transform: translateX(-110%)
+    }
+    to{
+        transform: translateX(0%)
+    }
+}
+
+@keyframes move-right-to-left{
+    from{
+        transform: translateX(110%)
+    }
+    to{
+        transform: translateX(0%)
+    }
+}

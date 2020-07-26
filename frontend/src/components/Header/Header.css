@@ -1,0 +1,41 @@
+.header-container {
+    position: relative;
+    padding: 10px;
+    margin: 2.5px;
+}
+
+.header-container > div{
+    flex: 1;
+    min-width: 200px;
+    min-height: 130px;
+}
+
+.header-container #logout{
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    width: 75px;
+    height: 25px;
+    padding: 1px;
+}
+
+.header-container .user-info{
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.header-container .usercontact-info{
+    flex-grow: 2;
+}
+
+@media screen and (max-width: 600px) {
+    .header-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-container .user-info{
+        justify-content: center;
+        align-items: center;
+    }
+}

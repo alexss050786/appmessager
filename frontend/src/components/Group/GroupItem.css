@@ -1,0 +1,18 @@
+.group-container .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.group-container .item img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.group-container .item strong{
+    margin-left: 5px;
+}
