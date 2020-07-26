@@ -8,44 +8,44 @@
 - sequelize: ^5.21.0
 - socket.io: ^2.2.0
 
-###### Principais tarefas
+###### Principais funcionalidades
 1. Gerenciamento de Usuario
-- [x] Novo (Store)
-- [x] Alterar (Update)
-- [x] Ler (Show)
-- [x] Deletar (Destroy)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 2. Gerenciamento de Contatos
-- [x] Listar (Index)
-- [x] Novo (Store)
-- [x] Alterar (Update)
-- [x] Ler (Show)
-- [x] Deletar (Destroy)
+- Listar (Index)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 3. Gerenciamento de Grupos do Usuario   //Usuario que gerencia o grupo
-- [x] Listar (Index)    //Lista todos grupo criado pelo usuario
-- [x] Novo (Store)      //Cria um novo grupo
-- [] Alterar (Update)   //Altera o nome do grupo
-- [x] Deletar (Destroy) //Deleta o grupo
+- Listar (Index)    //Lista todos grupo criado pelo usuario
+- Novo (Store)      //Cria um novo grupo
+- Alterar (Update)   //Altera o nome do grupo
+- Deletar (Destroy) //Deleta o grupo
 
 4. Gerenciamento de Grupos dos Usuarios
-- [x] Listar (Index)    //Lista os grupos onde o usuario esta cadastrado
-- [x] Novo (Store)      //Adiciona o usuario em um grupo
-- [x] Deletar (Destroy) //Remove o usuario de um grupo
+- Listar (Index)    //Lista os grupos onde o usuario esta cadastrado
+- Novo (Store)      //Adiciona o usuario em um grupo
+- Deletar (Destroy) //Remove o usuario de um grupo
 
 5. Gerenciamento de Grupos
-- [x] Listar (Index)     //Lista todos os grupos
-- [x] Ler (Show) //Recupera um grupo com seus usuarios
+- Listar (Index)     //Lista todos os grupos
+- Ler (Show) //Recupera um grupo com seus usuarios
 
 6. Gerenciamento de Mensagens
-- [x] Listar (Index)
-- [x] Novo (Store)
-- [] Alterar (Update)
-- [] Ler (Show)
-- [] Deletar (Destroy)
+- Listar (Index)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 7. Controle de Acesso
-- [x] Autentificação
+- Autentificação
 
 ##Frontend
 ###### Algumas Dependencias
@@ -55,42 +55,42 @@ react-dom: ^16.9.0
 react-router-dom: ^5.0.1
 socket.io-client: ^2.2.0
 
-###### Principais tarefas
+###### Principais funcionalidades
 1. Gerenciamento de Usuario
-- [x] Novo (Store)
-- [] Alterar (Update)
-- [x] Ler (Show)
-- [] Deletar (Destroy)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 2. Gerenciamento de Contatos
-- [x] Listar (Index)
-- [x] Novo (Store)
-- [] Alterar (Update)
-- [x] Ler (Show)
-- [] Deletar (Destroy)
+- Listar (Index)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 3. Gerenciamento de Grupos do Usuario   //Usuario que gerencia o grupo
-- [] Listar (Index)    //Lista todos grupo criado pelo usuario
-- [] Novo (Store)      //Cria um novo grupo
-- [] Alterar (Update)
-- [] Ler (Show)
-- [] Deletar (Destroy) //Deleta o grupo
+- Listar (Index)    //Lista todos grupo criado pelo usuario
+- Novo (Store)      //Cria um novo grupo
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy) //Deleta o grupo
 
 4. Gerenciamento de Grupos dos Usuarios
-- [x] Listar (Index)   //Lista os grupos onde o usuario esta cadastrado
-- [] Novo (Store)      //Adiciona o usuario em um grupo
-- [] Deletar (Destroy) //Remove o usuario de um grupo
+- Listar (Index)   //Lista os grupos onde o usuario esta cadastrado
+- Novo (Store)      //Adiciona o usuario em um grupo
+- Deletar (Destroy) //Remove o usuario de um grupo
 
 5. Gerenciamento de Grupos
-- [x] Listar (Index)    //Lista todos os grupos
-- [] Ler (Show) //Recupera um grupo com seus usuarios
+- Listar (Index)    //Lista todos os grupos
+- Ler (Show) //Recupera um grupo com seus usuarios
 
 6. Gerenciamento de Mensagens
-- [x] Listar (Index)
-- [x] Novo (Store)
-- [] Alterar (Update)
-- [] Ler (Show)
-- [] Deletar (Destroy)
+- Listar (Index)
+- Novo (Store)
+- Alterar (Update)
+- Ler (Show)
+- Deletar (Destroy)
 
 7. Controle de Acesso
-- [x] Autentificação
+- Autentificação
