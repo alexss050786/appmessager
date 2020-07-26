@@ -1,6 +1,9 @@
 #Aplicativo de troca de mensagens (Desenvolvido para efeito didatico)
+
 **Backend**
+
 ###### Algumas Dependencias
+
 - bcryptjs: ^2.4.3
 - express: ^4.17.1
 - jsonwebtoken: ^8.5.1
@@ -9,6 +12,7 @@
 - socket.io: ^2.2.0
 
 ###### Principais funcionalidades
+
 1. Gerenciamento de Usuario
 - Novo (Store)
 - Alterar (Update)
@@ -47,8 +51,10 @@
 7. Controle de Acesso
 - Autentificação
 
-##Frontend
+**Frontend**
+
 ###### Algumas Dependencias
+
 axios: ^0.19.0
 react: ^16.9.0
 react-dom: ^16.9.0
@@ -56,6 +62,7 @@ react-router-dom: ^5.0.1
 socket.io-client: ^2.2.0
 
 ###### Principais funcionalidades
+
 1. Gerenciamento de Usuario
 - Novo (Store)
 - Alterar (Update)
