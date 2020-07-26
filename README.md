@@ -58,7 +58,7 @@
 
 - Autentificação
 
-##Frontend
+**Frontend**
 
 ###### Algumas Dependencias
 
